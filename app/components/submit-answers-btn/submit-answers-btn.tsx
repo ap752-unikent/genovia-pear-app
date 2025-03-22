@@ -1,6 +1,5 @@
 import { Button, useTheme } from "@ui-kitten/components";
 import { Text } from "react-native";
-import Animated, { FadeInUp } from "react-native-reanimated";
 
 type Props = {
     handleSubmit: () => void;
