@@ -25,7 +25,7 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Tech Stack
+## Tech stack
 
 - Typescript
 - React Native
@@ -33,9 +33,14 @@ You can start developing by editing the files inside the **app** directory. This
 - UI Kitten for the component library
 - React query for handling request/response state.
 
-## Tech Decisions
+## Tech decisions
 
 - I chose to store answer feedback as "yes" | "no" vs true/false. I felt that this approach was more flexible and accounted for if we wanted to introduce a greater range of answers in the future. 
+
+## If I had more time / Next steps
+
+- Tests
+- Error handling
 
 ## Learn more
 
