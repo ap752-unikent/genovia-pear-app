@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "question": "Have you ever had an allergic reaction to Genovian Pears or products containing them?",
+        "options": [
+            {
+                "value": "yes",
+                "label": "Yes"
+            },
+            {
+                "value": "no",
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Are you currently experiencing any symptoms related to a Genovian Pear allergy (e.g., swelling, rash, difficulty breathing)?",
+        "options": [
+            {
+                "value": "yes",
+                "label": "Yes"
+            },
+            {
+                "value": "no",
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Do you have any other known food allergies?",
+        "options": [
+            {
+                "value": "yes",
+                "label": "Yes"
+            },
+            {
+                "value": "no",
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Are you currently taking any medications that might interact with allergy treatment?",
+        "options": [
+            {
+                "value": "yes",
+                "label": "Yes"
+            },
+            {
+                "value": "no",
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Have you previously been prescribed medication for this allergy?",
+        "options": [
+            {
+                "value": "yes",
+                "label": "Yes"
+            },
+            {
+                "value": "no",
+                "label": "No"
+            }
+        ]
+    }
+]
