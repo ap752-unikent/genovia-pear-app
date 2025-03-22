@@ -7,7 +7,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
-   npm install
+   npx expo install
    ```
 
 2. Start the app
@@ -25,15 +25,17 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- Typescript
+- React Native
+- Expo
+- UI Kitten for the component library
+- React query for handling request/response state.
 
-```bash
-npm run reset-project
-```
+## Tech Decisions
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- I chose to store answer feedback as "yes" | "no" vs true/false. I felt that this approach was more flexible and accounted for if we wanted to introduce a greater range of answers in the future. 
 
 ## Learn more
 
