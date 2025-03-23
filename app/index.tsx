@@ -1,7 +1,7 @@
 import { View, StyleSheet, FlatList } from "react-native";
 import AnimatedRadioButtons from "./components/radio-buttons/radio-buttons";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Button, Spinner, useTheme } from '@ui-kitten/components';
+import { Spinner } from '@ui-kitten/components';
 import Animated, { FadeInUp, useAnimatedRef } from 'react-native-reanimated';
 import { useFetchQuestions } from "./hooks/use-fetch-questions";
 import { useSendAnswers } from "./hooks/use-send-answers";
